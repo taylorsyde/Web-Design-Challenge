@@ -14,7 +14,7 @@ h1 {
   font-size: xx-large;
   color: rgb(24, 24, 24);
   padding: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 h2 {
@@ -22,6 +22,7 @@ h2 {
   font-weight: normal;
   color: rgb(24, 24, 24);
   padding: 20px;
+  padding-top: 5px;
 }
 
 img {
@@ -32,6 +33,17 @@ img {
 .polaroid {
   margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidebar {
+  margin: 20px;
+  background-color: #ffffff;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+  padding: 50px;
 }
 
 @media (max-width: 600px) {
