@@ -46,8 +46,34 @@ img {
   padding: 50px;
 }
 
+.dataframe {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dataframe, th, td {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
 @media (max-width: 600px) {
   .polaroid {
     box-shadow: none;
+  }
+
+  .dataframe {
+    width: auto;
   }
 }
