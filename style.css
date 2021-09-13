@@ -6,7 +6,7 @@ body {
   }
 
 .post {
-  margin: 20px;
+  margin-top: 20px;
   background-color: #ffffff;
 }
 
@@ -46,6 +46,20 @@ img {
   padding: 50px;
 }
 
+/* PHOTO GRID */
+.col-md-12 {
+  background-color: #ffffff;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.col-md-6 {
+  background-color: #ffffff;
+  margin: 0px;
+  width: 100%;
+}
+
+/* DATA TABLE */
 .dataframe {
   width: 90%;
   margin-left: auto;
@@ -68,12 +82,17 @@ th:nth-child(even),td:nth-child(even) {
   background-color: rgba(150, 212, 212, 0.4);
 }
 
+/* SMALL SCREEN */
 @media (max-width: 600px) {
   .polaroid {
     box-shadow: none;
   }
 
-  .dataframe {
-    width: auto;
+  /* DATA TABLE */
+  td { 
+    overflow: hidden; 
+    white-space:nowrap;
+    text-overflow:ellipsis; 
+    word-wrap: break-word;
   }
 }
